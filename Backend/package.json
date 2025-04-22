@@ -1,0 +1,20 @@
+{
+  "name": "contactmanager",
+  "version": "1.0.0",
+  "description": "A simple full-stack Contact Manager app to practice frontend-backend integration and CRUD operations.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim2107054/ContactManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jim2107054/ContactManager/issues"
+  },
+  "homepage": "https://github.com/jim2107054/ContactManager#readme"
+}
