@@ -62,7 +62,7 @@ The React frontend will run (e.g., on `http://localhost:3000`).
 
 | Method | Endpoint         | Description             |
 |:------:|:-----------------|:-------------------------|
-| POST   | `/contacts`       | Create a new contact     |
+| POST   | `/create`       | Create a new contact     |
 | GET    | `/contacts`       | Retrieve all contacts    |
 | PUT    | `/contacts/:nid`   | Update a contact by NID   |
 | DELETE | `/contacts/:nid`   | Delete a contact by NID   |
