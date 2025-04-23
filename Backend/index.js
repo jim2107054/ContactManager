@@ -1,4 +1,5 @@
 import express from 'express';
+import { connectDB } from './config/db.js';
 
 const app = express();
 
@@ -11,5 +12,6 @@ app.get('/',(req,res)=>{
 })
 
 app.listen(port,()=>{
+    connectDB();
     console.log(`Server is running on port ${port}`);
 })
