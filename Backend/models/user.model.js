@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
     nid:{
-        type:number,
+        type:String,
         required:true,
         unique:true,
     },
@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema({
         required:true
     },
     Phone:{
-        type:number,
+        type:String,
         required:true,
         unique:true
     },
