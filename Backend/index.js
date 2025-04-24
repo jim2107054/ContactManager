@@ -6,9 +6,7 @@ import { connectDB } from './config/DB.js';
 import userRouter from './routes/routes.js';
 
 const app = express();
-app.use(cors({
-    origin: "http://localhost:5173"
-}))
+app.use(cors())
 
 // middleware
 app.use(express.json());
